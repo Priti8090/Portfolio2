@@ -586,6 +586,9 @@ h4{
         height: 6vw;
         font-size: 2.5vw;
     }
+    .services-list div h2{
+        font-size: 1vw;
+    }
 }
 @keyframes slideRight {
     0% {
