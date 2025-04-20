@@ -33,7 +33,7 @@ body {
     top: 0%;
     left: 0%;
     width: 100%;
-    padding: 20px 10%;
+    padding: .6vw 10%;
     background-color:#00203F;
     display: flex;
     justify-content: space-between;
@@ -86,7 +86,7 @@ body {
 }
 .logo {
     position: relative;
-    font-size: 25px;
+    font-size: 2vw;
     color: #fff;
     text-decoration: none;
     font-weight: 600;
@@ -103,7 +103,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: 3.5vw;
     transition: .3s;
     animation: slideTop .5s ease forwards;
     animation-delay: calc(.2s * var(--i));
@@ -200,7 +200,7 @@ body {
     display: inline-block;
     padding: 1vw 2vw;
     background-color: #0ef;
-    border-radius: 40px;
+    border-radius: 4vw;
     font-size: 1.6vw;
     color: #081b29;
     letter-spacing: 1px;
@@ -434,8 +434,9 @@ h4{
     border-right: .3vw solid rgb(12, 2, 57);
     border-bottom: .5vw solid rgb(12, 2, 57);
     box-shadow: 1px 1px 10px #012290f7,1px 1px 20px #0053b8f7;
-    border-radius: 19px;
+    border-radius: 1vw;
     width: 40vw;
+    font-size: 1.5vw;
 }
 
 #contact button {
@@ -444,6 +445,7 @@ h4{
     margin-bottom: 2vw;
     background-color: #0fe;
     color: #060606;
+    font-size: 1.3vw;
     font-weight: 800;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
